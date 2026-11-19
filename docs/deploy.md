@@ -3,7 +3,7 @@
 Tudo em camadas gratuitas, sem cartão de crédito.
 
 ## 1. Banco de dados (Neon)
-1. Entre em <https://neon.tech> com o GitHub e crie um projeto (região mais próxima: *São Paulo*, se disponível).
+1. Entre em <https://neon.tech> com o GitHub e crie um projeto na região **AWS US East (N. Virginia)**, a mesma região padrão da Vercel, para menor latência.
 2. Em **Connection Details**, copie a *connection string* (formato `postgresql://…?sslmode=require`).
    Prefira a versão com **pooler** (`-pooler` no host).
 

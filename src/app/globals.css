@@ -32,7 +32,7 @@ body {
   background: var(--color-fundo);
   color: #1f2328;
   font-family: var(--font-sans);
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 h1, h2, h3 { font-family: var(--font-titulo); letter-spacing: -0.01em; }
 

@@ -65,7 +65,7 @@ export default async function PaginaTcc({ params, searchParams }: { params: Prom
                     className="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl border border-gelo bg-white p-3.5 shadow-sm transition hover:border-verde-700 hover:shadow sm:p-4"
                   >
                     <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-grafite-900 font-mono text-sm font-bold text-white">{e.ordem}</span>
-                    <span className="min-w-0 flex-1">
+                    <span className="min-w-[11rem] flex-1">
                       <span className="block font-semibold leading-snug text-grafite-900">{e.nome}</span>
                       <span className="block text-xs text-aco">
                         {e.ultimaEntrega ? `Versão ${e.ultimaEntrega.versao} · ${haQuanto(e.ultimaEntrega.criadaEm)}` : "Nenhuma entrega ainda"}
